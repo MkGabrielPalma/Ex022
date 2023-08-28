@@ -8,17 +8,24 @@
 <style>
     body {
         height: 100vh;
+        /*
         background-position: center center;
         background-repeat: no-repeat;
         background-color: black;
         background-size: cover;
         background-attachment: fixed;
         background-image: url(imagens-cap19/wallpaper002.jpg);
+        
+            Shorthand - background
+            color > image > position > repeat > [size](ainda não tem suporte dos navegadores) > attachment
+        */
+        background: black url('imagens-cap19/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
     }
     main {
         text-align: justify;
         background-color: white;
-        width: 400px;
+        max-width: 600px;
         padding: 10px;
         margin: auto;
         border: 5px solid black;
